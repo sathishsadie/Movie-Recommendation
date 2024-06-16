@@ -2,6 +2,7 @@ import pickle
 import streamlit as st
 import requests
 import os
+import gzip
 
 
 
@@ -37,10 +38,12 @@ file_path1 = os.path.join(cur_dir,"saved_model","similarity.pkl.gz")
 def load(file):
     with open(file,'rb') as f:
         return pickle.load(f)
-    
+def load1(f):
+    with gzip.open(f,'rb') as f1:
+        return pickle.load(f1)
 
 movies = load(file_path)
-similarity = load(file_path1)
+similarity = load1(file_path1)
 
 movie_list = movies['title'].values
 
