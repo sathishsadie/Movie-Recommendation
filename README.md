@@ -26,7 +26,11 @@ pip install -r requirements.txt
 
 Step 4: Create the folder called data collection 
 [dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+
 step 4.1: upzip the two datas from it
+
+
 step 4.2: save them in the folder named "data collection" which must be the neighbor folder for the saved_model
 
 
