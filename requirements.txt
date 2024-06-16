@@ -1,5 +1,4 @@
 streamlit
-gzip
 pandas
 pickle
 requests
