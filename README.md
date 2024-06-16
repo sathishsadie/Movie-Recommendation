@@ -58,3 +58,6 @@ streamlit run app.py
 
 Step 7: Use the Web App
 Open the web app in your browser input the movie name and get recommendations.
+
+# Deploy Streamlit web app
+[Movie Recommendation System](https://movie-recommendation-i58njgqzebquqkfj6bndna.streamlit.app/)
